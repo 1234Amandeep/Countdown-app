@@ -32,7 +32,7 @@ let cMonth = new Date().getMonth();
 let cDate = new Date().getDate();
 
 // time of 10 days later 
-const futureDate = new Date(cYear, cMonth, cDate + 10, 11, 00, 00);
+const futureDate = new Date(cYear, cMonth, cDate + 10, 11, 30, 00);
 
 
 const year = futureDate.getFullYear();
