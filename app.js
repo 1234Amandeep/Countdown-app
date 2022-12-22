@@ -45,7 +45,7 @@ weekday = weekdays[weekday];
 let month = futureDate.getMonth();
 month = months[month];
 
-giveaway.textContent = `giveaway ends on ${weekday}, ${date} ${month} ${year} ${hours}:${mins}am`;
+giveaway.textContent = `giveaway ends on ${weekday}, ${date} ${month} ${year} ${hours}:${mins}0am`;
 
 
 
